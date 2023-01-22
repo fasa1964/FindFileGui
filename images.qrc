@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>png/rotate.png</file>
+        <file>png/save.png</file>
+        <file>png/trash.png</file>
+        <file>png/openExternal.png</file>
+    </qresource>
+</RCC>
