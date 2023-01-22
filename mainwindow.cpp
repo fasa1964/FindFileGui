@@ -191,6 +191,7 @@ void MainWindow::deleteItemButtonClicked()
     model->data(index);
     ui->listView->model()->removeRow(row);
     ui->deleteItemButton->setEnabled(false);
+    ui->filePathEdit->clear();
 }
 
 void MainWindow::checkAllBoxClicked(int)

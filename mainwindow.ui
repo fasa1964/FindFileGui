@@ -352,7 +352,7 @@
     <item row="0" column="5">
      <widget class="QCheckBox" name="checkAllBox">
       <property name="toolTip">
-       <string>Check if more than one file exist.</string>
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Check if more than one file exist with the same name.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
       <property name="text">
        <string>check all</string>
@@ -385,8 +385,15 @@
       <property name="enabled">
        <bool>false</bool>
       </property>
+      <property name="toolTip">
+       <string>Try to open file</string>
+      </property>
       <property name="text">
        <string>...</string>
+      </property>
+      <property name="icon">
+       <iconset resource="images.qrc">
+        <normaloff>:/png/openExternal.png</normaloff>:/png/openExternal.png</iconset>
       </property>
      </widget>
     </item>
